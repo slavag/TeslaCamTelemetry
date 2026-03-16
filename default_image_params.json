@@ -1,0 +1,37 @@
+{
+  "pipeline_order": [
+    "black_white_point_remap",
+    "gamma",
+    "white_balance",
+    "contrast",
+    "saturation_vibrance",
+    "dehaze_or_local_contrast",
+    "sharpen",
+    "light_denoise"
+  ],
+  "levels": {
+    "black_point": 0.03,
+    "white_point": 0.97
+  },
+  "gamma": 1.02,
+  "exposure_ev": 0.0,
+  "white_balance": {
+    "red_gain": 1.0,
+    "green_gain": 1.0,
+    "blue_gain": 1.0
+  },
+  "contrast": 1.03,
+  "saturation": 1.08,
+  "vibrance": 0.08,
+  "highlights": -0.03,
+  "shadows": 0.04,
+  "dehaze": 0.04,
+  "clarity": 0.05,
+  "sharpen": {
+    "amount": 0.25,
+    "radius": 1.0,
+    "threshold": 0.03
+  },
+  "denoise": 0.02,
+  "vignette_correction": 0.0
+}
