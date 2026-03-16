@@ -1,3 +1,7 @@
+<img width="1638" height="959" alt="Screenshot 2026-03-16 at 23 14 31" src="https://github.com/user-attachments/assets/c0aba84c-3836-4b6a-a3b6-a7b9a853b592" />
+
+
+
 # TeslaCamOverlay
 
 Python tool that reads Tesla dashcam MP4 files, extracts embedded SEI telemetry
